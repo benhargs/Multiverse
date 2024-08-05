@@ -1,6 +1,6 @@
 import csv
 import os
-from pandas import read_csv
+from helpers import read_csv
 import pytest
  
 @pytest.fixture(scope="module")
